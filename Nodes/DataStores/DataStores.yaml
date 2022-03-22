@@ -1,2 +1,93 @@
 Name: DataStores
 Type: FolderType
+Children:
+- Name: EmbeddedDatabase1
+  Id: g=bc5ae607608b6d6942223ab85da81572
+  Type: SQLiteStore
+  Children:
+  - Name: Tables
+    Type: BaseObjectType
+    Children:
+    - Name: RecipeSchema1
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=8;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=8;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=8;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=8;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Name
+          Type: StoreColumn
+          DataType: String
+          Value: ""
+  - Class: Reference
+    Target: ns=9;i=30
+    Direction: Forward
+  - Class: Reference
+    Target: ns=9;i=33
+    Direction: Forward
+  - Name: MaxColumnNameLength
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+  - Name: MaxColumnCount
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+    Value: 0
+  - Name: DataTypeCompatibilityMap
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+    Value: {"Type":17,"Dimensions":[0,0],"Body":[]}
+  - Name: Status
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=8;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=59
+    Direction: Forward

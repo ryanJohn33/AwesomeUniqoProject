@@ -1,2 +1,50 @@
 Name: Recipes
 Type: FolderType
+Children:
+- Name: RecipeSchema1
+  Type: RecipeSchema
+  Children:
+  - Name: Root
+    Type: BaseObjectType
+  - Class: Reference
+    Target: ns=7;i=27
+    Direction: Forward
+  - Class: Reference
+    Target: ns=7;i=33
+    Direction: Forward
+  - Class: Reference
+    Target: ns=7;i=31
+    Direction: Forward
+  - Class: Reference
+    Target: ns=7;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=7;i=35
+    Direction: Forward
+  - Class: Reference
+    Target: ns=7;i=37
+    Direction: Forward
+  - Class: Reference
+    Target: ns=7;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=7;i=62
+    Direction: Forward
+  - Class: Reference
+    Target: ns=7;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=7;i=58
+    Direction: Forward
+  - Class: Reference
+    Target: ns=7;i=60
+    Direction: Forward
+  - Name: Store
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"bc5ae607608b6d6942223ab85da81572","Namespace":6}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":1,"Namespace":8}

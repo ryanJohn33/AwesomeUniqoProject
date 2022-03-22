@@ -23,5 +23,17 @@ Project:
    Uri: 'urn:QPlatform:NativeUI'
    Module: QPlatform.NativeUI
    Version: 26.3.0.37
+  7:
+   Uri: 'urn:QPlatform:Recipe'
+   Module: QPlatform.Recipe
+   Version: 1.3.12.100
+  8:
+   Uri: 'urn:QPlatform:Store'
+   Module: QPlatform.Store
+   Version: 2.1.24.100
+  9:
+   Uri: 'urn:QPlatform:SQLiteStore'
+   Module: QPlatform.SQLiteStore
+   Version: 2.1.14.100
  Nodes:
  - File: Nodes/AwesomeUniqoProject.yaml
